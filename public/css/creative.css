@@ -27,6 +27,58 @@ a {
   a:hover {
     color: #f05f40; }
 
+
+/*Additions by Steve McLain */
+#an-overlay {
+    position: fixed; 
+    display: none;
+    width: 90%;
+    height: 80%; 
+    top: 10%; 
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    background-color: rgba(0,0,0,0.9); /* Opacity is the last value */
+    transition: .5s ease;
+    z-index: 2; 
+    cursor: grab; }
+
+
+#overlay-text{
+    position: relative;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    overflow: auto; }
+
+@media only screen and (max-width: 500px) {
+    #overlay-text{
+    
+    font-size: 14px;
+     }
+    #profile-pic {
+        width: 250px;
+    }
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 30%;
+}
+
+#ol-explanation-3 {
+    display: none; }
+
+#ol-explanation-4 {
+    display: none }
+
+/*End additions by Steve McLain */
+
 h1,
 h2,
 h3,

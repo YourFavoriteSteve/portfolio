@@ -55,6 +55,13 @@
     scale: 0.3,
     distance: '0px'
   }, 300);
+window.sr = ScrollReveal();
+  sr.reveal('.sr-img', {
+    duration: 600,
+    scale: 0.3,
+    distance: '100px'
+  }, 200);    
+
 
   // Magnific popup calls
   $('.popup-gallery').magnificPopup({
