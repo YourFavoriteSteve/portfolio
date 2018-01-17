@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -64,17 +65,18 @@
             </h1>
             <div class="row">
                <div class="img-fluid col-auto">
-                  <img id="profile-pic" src="img/steve.jpg" alt="Image of Steve" class="animated fadeInRight">
+                  <img id="profile-pic" src="img/steve.jpg" alt="Image of Steve">
                 </div>
             </div>
-            <hr>
           </div>
-          <div class="col-lg-8 mx-auto">
-            
+        </div>
+        <br>
+        <div class="row">
+          <div class="d-inline-block text-center col-12">
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About</a>
           </div>
         </div>
-      </div>
+       </div>
     </header>
 
     <section class="bg-primary" id="about">
@@ -104,28 +106,28 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-html5 text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-html5 wow animated bounceIn text-primary mb-3"></i>
               <h3 class="mb-3">HTML</h3>
               <p class="text-muted mb-0">Experience with HTML reaches back into the 90s, building Geocities websites.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-css3 text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-css3 wow animated bounceIn text-primary mb-3"></i>
               <h3 class="mb-3">CSS</h3>
               <p class="text-muted mb-0">First learned CSS during the days of MySpace and continue to use it today.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-file-code-o text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-file-code-o wow animated bounceIn text-primary mb-3"></i>
               <h3 class="mb-3">JavaScript</h3>
               <p class="text-muted mb-0">I started using JavaScript in 2000 when I picked up Javascript for Dummies, 3rd edition.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-terminal text-primary mb-3 sr-icons"></i>
+              <i class="fa fa-4x fa-terminal wow animated bounceIn text-primary mb-3"></i>
               <h3 class="mb-3">PHP</h3>
               <p class="text-muted mb-0">Started working with PHP 4 to serve up web pages in late 2000, creating websites that processed user input and updated SQL databases.</p>
             </div>
@@ -333,6 +335,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     
 
   </body>
